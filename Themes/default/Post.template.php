@@ -508,7 +508,7 @@ function template_main()
 					</dl>';
 	}
 
-    /*
+
     $first = rand(1, 9);
     $second = rand(1,9);
     $_SESSION['checker_result'] = $first+$second;
@@ -516,7 +516,7 @@ function template_main()
          . "$first+$second" .
          '</label><input type="text" name="checker" value="" size="2" autocomplete="off"/></div>';
 
-    */
+
 
 	// Is visual verification enabled?
 	if ($context['require_verification'])

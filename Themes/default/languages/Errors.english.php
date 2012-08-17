@@ -3,7 +3,7 @@
 
 global $scripturl, $modSettings;
 
-//$txt['error_checker_result'] = "Invalid antispam";
+$txt['error_checker_result'] = "Invalid antispam";
 $txt['no_access'] = 'You are not allowed to access this section';
 $txt['wireless_error_notyet'] = 'Sorry, this section isn\'t available for wireless users at this time.';
 

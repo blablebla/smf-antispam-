@@ -1503,11 +1503,11 @@ function Post2()
 		}
 	}
 
-    /*
+
     if(!isset($_POST['checker']) || ($_SESSION['checker_result'] != $_POST['checker'])) {
         $post_errors[] = 'checker_result';
     }
-    */
+
 
 	// Check the subject and message.
 	if (!isset($_POST['subject']) || $smcFunc['htmltrim']($smcFunc['htmlspecialchars']($_POST['subject'])) === '')
